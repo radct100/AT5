@@ -1,0 +1,40 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "031-45-154"
+  },
+  "accessories": [],
+  "platforms": [
+    {
+      "platform": "AirTouch5",
+      "name": "Air Touch 5",
+      "host": "192.168.1.100",
+      "port": 8080,
+      "statusInterval": 30000,
+      "zones": [
+        {
+          "zoneNumber": 1,
+          "name": "Living Room"
+        },
+        {
+          "zoneNumber": 2,
+          "name": "Main Bedroom"
+        },
+        {
+          "zoneNumber": 3,
+          "name": "Guest Bedroom"
+        },
+        {
+          "zoneNumber": 4,
+          "name": "Kitchen"
+        },
+        {
+          "zoneNumber": 5,
+          "name": "Bathroom"
+        }
+      ]
+    }
+  ]
+}
